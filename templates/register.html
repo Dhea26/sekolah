@@ -1,0 +1,156 @@
+{% extends "base.html" %}
+
+{% block _content %}
+        <section class="ftco-section ftco-counter img" ">
+            <div class=" container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8 text-center heading-section ftco-animate">
+                        <h2 class="mb-4"><span>Form</span> Registrasi</h2>
+                        <p>Silahkan mengisi form registrasi berikut dengan benar</p>
+                    </div>
+                </div>
+                <div class="row">
+                    
+                    <div class="col-md-6">
+                        <div class="ftco-footer-widget3 mb-5 pl-4">
+                            
+                            <h2 class="ftco-heading-2 pb-3 text-center"
+                            style="color:#f8a100 ; font-size: 25px; font-weight: 500;">
+                            Data Anak</h2>
+                            <form>
+                                <div class="form-group">
+                                    <label for="inputAddress">Nama</label>
+                                    <input type="text" class="form-control" id="inputAddress">
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <label for="inputEmail4">Umur</label>
+                                        <input type="email" class="form-control" placeholder="1 thn" id="inputEmail4">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="inputPassword4">Tanggal lahir</label>
+                                        <input type="password" class="form-control" placeholder="1-1-2020" id="inputPassword4">
+                                    </div>
+                                </div>
+                                
+                                
+                                <div class="form-row">
+                                    
+                                    <div class="form-group col-md-6">
+                                        <label for="inputState">Jenis kelamin</label>
+                                        <select id="inputState" class="form-control">
+                                            <option selected></option>
+                                            <option>Laki-laki</option>
+                                            <option>Perempuan</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="inputState">Program</label>
+                                        <select id="inputState" class="form-control">
+                                            <option selected></option>
+                                            <option>Penitipan Anak</option>
+                                            <option>Pendidikan Anak Usia Dini</option>
+                                            <option>Rumah Tahfidz</option>
+                                            <option>English For Kids</option>
+                                            <option>Japan For Kids</option>
+                                            <option>Private Materi Sekolah</option>
+                                        </select>
+                                    </div>
+                                    
+                                </div>
+                                <div class="custom-file mb-3">
+                                    <!-- fotooo -->
+                                    
+                                    <input name="file_image" type="file" class="custom-file-input" id="foto_anak"
+                                    aria-describedby="inputGroupFileAddon01">
+                                    <label class="custom-file-label" for="inputGroupFile01">Pilih Foto</label>
+                                    <small>Ukuran foto maks 1 MB (jpg, png)</small>
+                                </div>
+                                
+                                
+                            </form>
+                            
+                        </div>
+                        
+                    </div>
+                    <div class="col-md-3">
+                        <div class="ftco-footer-widget3 mb-5 pl-4">
+                            
+                            <h2 class="ftco-heading-2 pb-3 text-center"
+                            style="color:#f8a100 ; font-size: 25px; font-weight: 500;">
+                            Data Ayah</h2>
+                            <form>
+                                <div class="form-group">
+                                    <label for="inputAddress">Nama</label>
+                                    <input type="text" class="form-control" id="inputAddress">
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputAddress">Alamat</label>
+                                    <input type="text" class="form-control" id="inputAddress">
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputAddress">No. Telepon</label>
+                                    <input type="text" class="form-control" id="inputAddress">
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputAddress">Pekerjaan</label>
+                                    <input type="text" class="form-control" id="inputAddress">
+                                </div>
+                                
+                                
+                                
+                                
+                                
+                                
+                                <!-- <button type="submit" class="btn btn-ku mt-3">Sign in</button> -->
+                            </form>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="ftco-footer-widget3 mb-5 pl-4">
+                            
+                            <h2 class="ftco-heading-2 pb-3 text-center"
+                            style="color:#f8a100 ; font-size: 25px; font-weight: 500;">
+                            Data Ibu</h2>
+                            <form>
+                                <div class="form-group">
+                                    <label for="inputAddress">Nama</label>
+                                    <input type="text" class="form-control" id="inputAddress">
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputAddress">Alamat</label>
+                                    <input type="text" class="form-control" id="inputAddress">
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputAddress">No. Telepon</label>
+                                    <input type="text" class="form-control" id="inputAddress">
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputAddress">Pekerjaan</label>
+                                    <input type="text" class="form-control" id="inputAddress">
+                                </div>
+                                
+                                
+                                
+                                
+                                <!-- <button type="submit" class="btn btn-ku mt-3">Sign in</button> -->
+                            </form>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="container">
+                    <div class="col-md-2 offset-10">
+                        <button type="submit" class="btn btn-primary sm-2">Registrasi</button>
+
+                    </div>
+                
+            </div>
+            </div>
+            
+        </section>
+        
+        
+        {% endblock%}
